@@ -25,9 +25,9 @@ Clone the project repository and create a local hidden configuration file named 
 DEBUG=True
 SECRET_KEY=your_runtime_cryptographic_secret_key
 
-DB_NAME=notification_db
-DB_USER=notification_user
-DB_PASSWORD=ayodeji0
+DB_NAME=database_name
+DB_USER=database_username
+DB_PASSWORD=database_password
 DB_HOST=postgres_db
 DB_PORT=5432
 
