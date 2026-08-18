@@ -22,7 +22,7 @@ services:
     environment:
       POSTGRES_DB: "notification_db"
       POSTGRES_USER: "notification_user"
-      POSTGRES_PASSWORD: "ayodeji0"
+      POSTGRES_PASSWORD: "password"
     volumes:
       - postgres_data:/var/lib/postgresql/data # Keeps your database records alive when containers stop
     ports:
