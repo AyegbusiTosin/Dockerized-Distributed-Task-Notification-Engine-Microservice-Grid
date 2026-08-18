@@ -63,7 +63,7 @@ docker compose exec web_api python manage.py createsuperuser
 ```
 
 ### 5. Initialize the Temporal Timer Clock
-1. Navigate to the web gateway admin page at `http://127.0.0`.
+1. Navigate to the web gateway admin page at `http://127.0.0.0/admin/`.
 2. Under the **Django Celery Beat** workspace, navigate to **Intervals** and add a `10 Seconds` rhythm slot.
 3. Move to **Periodic Tasks**, register a new task row pointing to `notifications.tasks.check_and_dispatch_scheduled_notifications`, and mount the 10-second interval rule.
 
