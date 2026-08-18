@@ -35,7 +35,7 @@ CELERY_BROKER_URL=redis://redis_queue:6379/0
 CELERY_RESULT_BACKEND=redis://redis_queue:6379/0
 
 EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
-EMAIL_HOST=://gmail.com
+EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=465
 EMAIL_USE_SSL=True
 EMAIL_USE_TLS=False
